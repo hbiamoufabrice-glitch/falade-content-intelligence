@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>Politique de confidentialité — FALADE Content Intelligence</title>
+
+  <style>
+    * {
+      box-sizing: border-box;
+    }
+
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background: #07110d;
+      color: #f4f7f5;
+      line-height: 1.7;
+    }
+
+    header {
+      padding: 25px 8%;
+      border-bottom: 1px solid #193329;
+    }
+
+    .logo {
+      color: #5ee6a8;
+      font-weight: bold;
+      font-size: 22px;
+    }
+
+    main {
+      max-width: 850px;
+      margin: auto;
+      padding: 70px 25px;
+    }
+
+    h1 {
+      font-size: 45px;
+      line-height: 1.1;
+      margin-bottom: 15px;
+    }
+
+    h2 {
+      margin-top: 45px;
+      color: #5ee6a8;
+    }
+
+    p, li {
+      color: #c1cec7;
+    }
+
+    a {
+      color: #5ee6a8;
+    }
+
+    .date {
+      color: #82958b;
+      margin-bottom: 40px;
+    }
+
+    .notice {
+      background: #10241a;
+      border-left: 4px solid #5ee6a8;
+      padding: 20px;
+      margin: 30px 0;
+    }
+
+    footer {
+      text-align: center;
+      padding: 40px;
+      border-top: 1px solid #193329;
+      color: #82958b;
+    }
+  </style>
+</head>
+
+<body>
+
+<header>
+  <div class="logo">FALADE LABS</div>
+</header>
+
+<main>
+
+  <h1>Politique de confidentialité</h1>
+
+  <p class="date">
+    Dernière mise à jour : 29 septembre 2026
+  </p>
+
+  <div class="notice">
+    FALADE Content Intelligence est un projet indépendant destiné
+    à aider les créateurs à analyser leurs propres contenus et
+    données autorisées.
+  </div>
+
+  <h2>1. Objet</h2>
+
+  <p>
+    Cette politique explique comment FALADE Content Intelligence
+    traite les informations utilisées dans le cadre de son service
+    d'analyse de contenu.
+  </p>
+
+  <h2>2. Données utilisées</h2>
+
+  <p>
+    Lorsque l'utilisateur autorise une connexion à son compte,
+    seules les informations nécessaires au fonctionnement du service
+    sont utilisées.
+  </p>
+
+  <p>
+    Selon les autorisations accordées et les fonctionnalités
+    utilisées, ces informations peuvent notamment comprendre :
+  </p>
+
+  <ul>
+    <li>les informations de profil nécessaires à l'identification du compte ;</li>
+    <li>les informations relatives aux vidéos accessibles via les autorisations accordées ;</li>
+    <li>les métadonnées nécessaires à l'analyse du contenu ;</li>
+    <li>les informations techniques nécessaires au fonctionnement et à la sécurité du service.</li>
+  </ul>
+
+  <h2>3. Finalité de l'utilisation</h2>
+
+  <p>
+    Les données accessibles sont utilisées pour fournir les
+    fonctionnalités demandées par l'utilisateur, notamment :
+  </p>
+
+  <ul>
+    <li>analyser les contenus autorisés ;</li>
+    <li>identifier les hooks et structures de contenu ;</li>
+    <li>identifier des sujets et tendances ;</li>
+    <li>produire des informations utiles à l'amélioration de la stratégie de contenu ;</li>
+    <li>maintenir la sécurité et le fonctionnement du service.</li>
+  </ul>
+
+  <h2>4. Partage des données</h2>
+
+  <p>
+    FALADE Content Intelligence ne vend pas les données personnelles
+    des utilisateurs.
+  </p>
+
+  <p>
+    Les données ne sont pas partagées avec des tiers à des fins
+    publicitaires sans base légale ou autorisation appropriée.
+  </p>
+
+  <h2>5. Conservation</h2>
+
+  <p>
+    Les données sont conservées uniquement pendant la période
+    nécessaire à la fourniture du service ou conformément aux
+    obligations légales applicables.
+  </p>
+
+  <h2>6. Sécurité</h2>
+
+  <p>
+    Des mesures techniques et organisationnelles appropriées sont
+    mises en place afin de protéger les informations contre les
+    accès non autorisés, la perte, la modification ou la divulgation.
+  </p>
+
+  <h2>7. Droits des utilisateurs</h2>
+
+  <p>
+    Selon la législation applicable, les utilisateurs peuvent disposer
+    de droits concernant leurs données, notamment le droit d'accès,
+    de rectification, de suppression ou de retrait de leur autorisation.
+  </p>
+
+  <h2>8. Suppression des données</h2>
+
+  <p>
+    L'utilisateur peut demander la suppression des données associées
+    à son utilisation du service en contactant le responsable du service.
+  </p>
+
+  <h2>9. Cookies et technologies similaires</h2>
+
+  <p>
+    Le site peut utiliser des technologies nécessaires à son
+    fonctionnement. Si des outils d'analyse ou de suivi supplémentaires
+    sont ajoutés ultérieurement, cette politique sera mise à jour.
+  </p>
+
+  <h2>10. Modifications</h2>
+
+  <p>
+    Cette politique peut être mise à jour afin de refléter l'évolution
+    du service, des pratiques de traitement des données ou des exigences
+    légales applicables.
+  </p>
+
+  <h2>11. Contact</h2>
+
+  <p>
+    Pour toute question relative à cette politique ou à la suppression
+    des données, veuillez contacter le responsable de FALADE Content
+    Intelligence à l'adresse de contact officielle indiquée lors de
+    la mise en service du projet.
+  </p>
+
+  <div class="notice">
+    <strong>Important :</strong>
+    avant de soumettre définitivement l'application à TikTok Developer,
+    les informations légales et l'adresse e-mail officielle du responsable
+    du service doivent être ajoutées à cette page.
+  </div>
+
+  <p>
+    <a href="index.html">← Retour à FALADE Content Intelligence</a>
+  </p>
+
+</main>
+
+<footer>
+  © 2026 FALADE LABS — FALADE Content Intelligence
+</footer>
+
+</body>
+</html>
