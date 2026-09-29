@@ -1,0 +1,350 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>FALADE Content Intelligence</title>
+
+  <meta name="description"
+        content="FALADE Content Intelligence aide les créateurs à analyser leurs contenus TikTok autorisés.">
+
+  <style>
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    body {
+      font-family: Arial, sans-serif;
+      background: #07110d;
+      color: #f4f7f5;
+      line-height: 1.6;
+    }
+
+    header {
+      padding: 24px 8%;
+      border-bottom: 1px solid #193329;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+
+    .logo {
+      font-size: 22px;
+      font-weight: bold;
+      color: #5ee6a8;
+    }
+
+    header a {
+      color: #d8e5de;
+      text-decoration: none;
+      margin-left: 20px;
+    }
+
+    .hero {
+      min-height: 75vh;
+      padding: 100px 8%;
+      display: flex;
+      align-items: center;
+      max-width: 1200px;
+      margin: auto;
+    }
+
+    .hero-content {
+      max-width: 800px;
+    }
+
+    .badge {
+      display: inline-block;
+      padding: 8px 14px;
+      border: 1px solid #285441;
+      border-radius: 30px;
+      color: #5ee6a8;
+      margin-bottom: 25px;
+      font-size: 14px;
+    }
+
+    h1 {
+      font-size: clamp(42px, 7vw, 76px);
+      line-height: 1.05;
+      margin-bottom: 25px;
+    }
+
+    h1 span {
+      color: #5ee6a8;
+    }
+
+    .hero p {
+      font-size: 20px;
+      color: #b8c9c0;
+      max-width: 700px;
+      margin-bottom: 35px;
+    }
+
+    .button {
+      display: inline-block;
+      padding: 15px 25px;
+      background: #5ee6a8;
+      color: #07110d;
+      border-radius: 8px;
+      text-decoration: none;
+      font-weight: bold;
+    }
+
+    section {
+      padding: 80px 8%;
+      max-width: 1200px;
+      margin: auto;
+    }
+
+    h2 {
+      font-size: 38px;
+      margin-bottom: 40px;
+    }
+
+    .grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+      gap: 20px;
+    }
+
+    .card {
+      background: #0d1d16;
+      border: 1px solid #1d3b2e;
+      padding: 30px;
+      border-radius: 14px;
+    }
+
+    .card h3 {
+      color: #5ee6a8;
+      margin-bottom: 12px;
+    }
+
+    .card p {
+      color: #b8c9c0;
+    }
+
+    .steps {
+      counter-reset: step;
+    }
+
+    .step {
+      margin-bottom: 25px;
+      padding: 25px;
+      background: #0d1d16;
+      border-left: 3px solid #5ee6a8;
+      border-radius: 8px;
+    }
+
+    .step strong {
+      color: #5ee6a8;
+    }
+
+    .privacy {
+      background: #0a1812;
+      border-top: 1px solid #193329;
+      border-bottom: 1px solid #193329;
+    }
+
+    footer {
+      padding: 40px 8%;
+      color: #82958b;
+      text-align: center;
+    }
+
+    footer a {
+      color: #5ee6a8;
+      text-decoration: none;
+    }
+
+    @media (max-width: 600px) {
+      header {
+        padding: 20px;
+      }
+
+      header nav {
+        display: none;
+      }
+
+      .hero {
+        padding: 70px 20px;
+      }
+
+      section {
+        padding: 60px 20px;
+      }
+    }
+  </style>
+</head>
+
+<body>
+
+<header>
+  <div class="logo">FALADE LABS</div>
+
+  <nav>
+    <a href="#analyse">Analyse</a>
+    <a href="#fonctionnement">Fonctionnement</a>
+    <a href="privacy.html">Confidentialité</a>
+  </nav>
+</header>
+
+<main>
+
+  <section class="hero">
+    <div class="hero-content">
+
+      <div class="badge">FALADE Content Intelligence</div>
+
+      <h1>
+        Comprendre son contenu.<br>
+        <span>Améliorer sa stratégie.</span>
+      </h1>
+
+      <p>
+        FALADE Content Intelligence aide les créateurs à analyser
+        leurs contenus TikTok autorisés afin d'identifier les hooks,
+        formats, sujets, tendances et signaux de performance.
+      </p>
+
+      <a class="button" href="#fonctionnement">
+        Découvrir l'outil
+      </a>
+
+    </div>
+  </section>
+
+  <section id="analyse">
+
+    <h2>Ce que l'outil analyse</h2>
+
+    <div class="grid">
+
+      <div class="card">
+        <h3>Hooks</h3>
+        <p>
+          Identification des accroches utilisées pour capter
+          l'attention dès les premières secondes.
+        </p>
+      </div>
+
+      <div class="card">
+        <h3>Formats</h3>
+        <p>
+          Analyse des formats et structures de contenu utilisés
+          par les créateurs.
+        </p>
+      </div>
+
+      <div class="card">
+        <h3>Sujets & tendances</h3>
+        <p>
+          Repérage des thèmes récurrents et des tendances
+          présentes dans les contenus analysés.
+        </p>
+      </div>
+
+      <div class="card">
+        <h3>Performance</h3>
+        <p>
+          Lecture des signaux disponibles afin de mieux comprendre
+          ce qui caractérise les contenus publiés.
+        </p>
+      </div>
+
+    </div>
+
+  </section>
+
+  <section id="fonctionnement">
+
+    <h2>Comment ça fonctionne</h2>
+
+    <div class="steps">
+
+      <div class="step">
+        <strong>01 — Connecter</strong>
+        <p>
+          Le créateur autorise l'accès aux données nécessaires
+          à l'analyse de ses contenus.
+        </p>
+      </div>
+
+      <div class="step">
+        <strong>02 — Analyser</strong>
+        <p>
+          FALADE Content Intelligence examine les contenus
+          accessibles et leurs caractéristiques.
+        </p>
+      </div>
+
+      <div class="step">
+        <strong>03 — Comprendre</strong>
+        <p>
+          Les informations sont organisées pour faire ressortir
+          les formats, hooks, sujets et signaux importants.
+        </p>
+      </div>
+
+      <div class="step">
+        <strong>04 — Améliorer</strong>
+        <p>
+          Les enseignements peuvent ensuite servir à construire
+          une stratégie de contenu plus structurée.
+        </p>
+      </div>
+
+    </div>
+
+  </section>
+
+  <section class="privacy">
+
+    <h2>Confidentialité</h2>
+
+    <p>
+      La confidentialité et la séparation des données des utilisateurs
+      font partie des principes fondamentaux du projet.
+    </p>
+
+    <br>
+
+    <a class="button" href="privacy.html">
+      Lire la politique de confidentialité
+    </a>
+
+  </section>
+
+  <section>
+
+    <h2>À propos de FALADE LABS</h2>
+
+    <p style="color:#b8c9c0; max-width:750px;">
+      FALADE LABS développe des outils d'intelligence artificielle
+      destinés à aider les créateurs, professionnels et entrepreneurs
+      à transformer leurs données et leurs contenus en informations
+      exploitables.
+    </p>
+
+    <br>
+
+    <p style="color:#82958b; max-width:750px;">
+      FALADE Content Intelligence est un projet indépendant et ne
+      prétend pas être affilié, sponsorisé ou approuvé par TikTok.
+    </p>
+
+  </section>
+
+</main>
+
+<footer>
+  <p>© 2026 FALADE LABS — FALADE Content Intelligence</p>
+  <p>
+    <a href="privacy.html">Politique de confidentialité</a>
+  </p>
+</footer>
+
+</body>
+</html>
